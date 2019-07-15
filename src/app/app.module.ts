@@ -8,6 +8,7 @@ import {ContactComponent} from './contact/contact.component';
 import {PreviousworkComponent} from './previouswork/previouswork.component';
 import {SkillsComponent} from './skills/skills.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
+import {NavComponent} from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {AppRoutingModule} from './app-routing/app-routing.module';
     AboutComponent,
     ContactComponent,
     PreviousworkComponent,
-    SkillsComponent
+    SkillsComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
