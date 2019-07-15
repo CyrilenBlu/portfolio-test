@@ -1,0 +1,11 @@
+# Navbar to follow when scrolling down
+
+# Better middle container for home (thin on full screen)
+
+# Fonts (Google Fonts)
+
+# Create Side Bars for more content
+
+# Animations (Active website)
+
+# Custom CSS (Not everything must be bootstrap!)
