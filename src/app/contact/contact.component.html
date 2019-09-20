@@ -1,3 +1,4 @@
+<html>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,9 +12,43 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-
-<body>
 <app-nav></app-nav>
-<p>Contact!</p>
+<body>
+  <form class="container">
+    <div class="inner-container">
+      <br>
+      <h2>Contact Me:</h2>
+      <hr>
+      <div class="inner-label">
+        <label>
+          <strong>Email address</strong>
+          <br>
+          <input id="email" type="email" name="email" class="inner-input"/>
+        </label>
+      </div>
+      <div class="inner-label">
+        <label>
+          <strong>Subject</strong>
+          <br>
+          <input name="subject" id="subject" class="inner-input" type="text"/>
+        </label>
+      </div>
+      <div class="inner-label">
+        <label>
+          <strong>Message</strong>
+          <br>
+          <textarea name="message" id="message" class="inner-input" rows="10" cols="70"></textarea>
+        </label>
+      </div>
+      <div class="inner-label">
+        <label>
+          <input name="submit" id="submit" class="inner-button" type="submit" value="Send" (click)="onSubmit()" />
+        </label>
+      </div>
+    </div>
+  </form>
+
 </body>
+
+</html>
 

@@ -1,0 +1,40 @@
+body, html {
+  background: url("https://wallpaperplay.com/walls/full/4/8/1/166084.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 40px ;
+  width: 80%;
+  height: 60%;
+  background-color: rgba(95,158,160,0.3);
+}
+
+.inner-container {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.inner-label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.inner-input {
+}
+
+.inner-button {
+
+}
+
+.inner-button:hover {
+  background: gray;
+}
