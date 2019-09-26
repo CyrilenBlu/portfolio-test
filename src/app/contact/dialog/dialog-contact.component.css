@@ -1,0 +1,12 @@
+.md-dialog-container {
+  position: fixed !important;
+  top: 10%;
+  left: 60%;
+  z-index: 100000 !important;
+  float: top;
+  width: 20%;
+  height: 10%;
+  background-color: gray;
+  font-size: 12px;
+  padding: 10px;
+}

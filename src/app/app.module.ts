@@ -9,6 +9,10 @@ import {PreviousworkComponent} from './previouswork/previouswork.component';
 import {SkillsComponent} from './skills/skills.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
 import {NavComponent} from './nav/nav.component';
+import {HttpClientModule} from "@angular/common/http";
+import {MatDialogModule} from '@angular/material';
+import {DialogContactComponent} from './contact/dialog/dialog-contact.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -18,11 +22,18 @@ import {NavComponent} from './nav/nav.component';
     ContactComponent,
     PreviousworkComponent,
     SkillsComponent,
-    NavComponent
+    NavComponent,
+    DialogContactComponent
+  ],
+  entryComponents: [
+    DialogContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    MatDialogModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
